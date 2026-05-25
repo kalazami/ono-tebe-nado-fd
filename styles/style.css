@@ -27,8 +27,7 @@
 
 .header__link,
 .address a,
-.footer__menu-link,
-.lots__look-more-link {
+.footer__menu-link {
   text-underline-offset: 4px;
 }
 
@@ -48,9 +47,11 @@
 }
 
 .header__address {
-  width: 240px;
-  max-width: 240px;
   justify-self: end;
+}
+
+.header__address-text {
+  width: 190px;
 }
 
 .cover {
@@ -91,16 +92,16 @@
   display: block;
 }
 
+.aligned-text_left {
+  text-align: left;
+}
+
 .aligned-text_center {
   text-align: center;
 }
 
 .aligned-text_right {
   text-align: right;
-}
-
-.letter-spacing-extended {
-  letter-spacing: 60px;
 }
 
 .no-letter-spacing {
@@ -199,6 +200,7 @@
 }
 
 .lots__look-more-link {
+  text-underline-offset: 4px;
   display: inline-block;
   margin: 30px 0 0 40px;
   font-size: 20px;
@@ -256,8 +258,7 @@
   text-align: center;
 }
 
-.footer__menu-list,
-.footer__social-list {
+.footer__menu-list {
   padding: 0;
   list-style: none;
 }
@@ -267,6 +268,8 @@
 }
 
 .footer__social-list {
+  padding: 0;
+  list-style: none;
   justify-self: end;
   display: flex;
   gap: 48px;
